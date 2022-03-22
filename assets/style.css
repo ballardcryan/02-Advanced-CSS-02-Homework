@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 40px;
+    height: 250px;
+    /* background-image: url(https://www.analogmotorcycles.com/wp-content/uploads/2017/02/DSC_2557-Edit-Edit-2.jpg); */
+    background-image: url(../assets/images/airhead_header_img_wide.jpeg);
+    background-size: cover;
+    color: #fff;
+    justify-content: flex-start;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    margin: 0 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    display: block;
+    flex: 30%;
+    background-color: #A9A69D;
+    color: #212629;
+    text-align: center;
+    align-items: center;
+}
+
+div {
+    flex: 70%;
+    background-color: #918374;
+    color: #212629
+}
+
+footer {
+    display: flex;
+    background-color: #7C8C9C;
+    color: #212629;
+    justify-content: center;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #212629;
+
+}
+
+
+.links {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.contact_info {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 20px;
+
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 66vw;
+    justify-content: center;
+}
+
+#primapp {
+    display: flex;
+
+
+}
+
+#bigBoy {
+    /* min-width: 50vw !important; */
+    min-width: 60vw !important;
+
+}
+
+.card {
+    display: grid;
+
+}
+
+section a img {
+    max-width: 33vw;
+    padding: 5px;
+
+}
+
+
+#quote {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about_me {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        /* background-image: url("https://wallpapercave.com/wp/wp5165551.jpg"); */
+        background-image: url(../assets/images/airhead_header_img.jpeg);
+        background-size: cover;
+        display: block;
+        text-align: center;
+        color: #fff
+    }
+
+    aside {
+        background-color: #A99991;
+        color: #2E2A2D;
+    }
+
+    div {
+        background-color: #7D7F98;
+        color: #2E2A2D;
+    }
+
+    footer {
+        background-color: #8597A0;
+        color: #2E2A2D;
+    }
+
+    section a img {
+        width: fit-content;
+        min-width: 50vw;
+    }
+
+    .card {
+        display: block;
+    }
+
+    #quote {
+        font-size: 75%;
+    }
+
+    #about_me {
+        font-size: 75%;
+    }
+}
